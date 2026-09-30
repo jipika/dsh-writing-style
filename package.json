@@ -1,0 +1,41 @@
+{
+  "name": "dsh-writing-style",
+  "version": "0.1.0",
+  "description": "在写作模式里学习你的写作风格：采样 DSH 会话中你亲自发送的文本，蒸馏成一份可直接自动触发的写作风格 Skill（SKILL.md + references/writing-style.md），并预留外部连接器（邮件 / 消息应用）接口。",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jipika/dsh-writing-style.git"
+  },
+  "homepage": "https://github.com/jipika/dsh-writing-style#readme",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "writing-style",
+    "skill",
+    "writing-mode",
+    "connector"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
