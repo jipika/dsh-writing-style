@@ -1,5 +1,6 @@
 {
   "name": "dsh-writing-style",
+  "icon": "./assets/icon.svg",
   "version": "0.1.0",
   "description": "在写作模式里学习你的写作风格：采样 DSH 会话中你亲自发送的文本，蒸馏成一份可直接自动触发的写作风格 Skill（SKILL.md + references/writing-style.md），并预留外部连接器（邮件 / 消息应用）接口。",
   "license": "MIT",

@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/icon.svg" width="72" alt="dsh-writing-style icon">
+</div>
+
 # dsh-writing-style
 
 > 在**创作模式**里学习你的写作风格：采样你在 DSH 里**亲自发送**的文本，蒸馏成一份
